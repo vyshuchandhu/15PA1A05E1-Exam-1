@@ -1,0 +1,90 @@
+h1{
+	color: white;
+	text-align: center;
+	font: 20px Comic Sans MS, sans-serif;
+	padding: 50px 0px 5px 0px;
+	font-size: 45px;
+}
+.p {
+    color: white;
+    text-align: center;
+    font: 20px Comic Sans MS, sans-serif;
+    padding : 30px 100px 1px 50px;
+}
+body {
+  background-image:url('bg.jpg');
+  background-size: cover;
+}
+input[type=text]{
+    border:2px solid #90a5a6;
+    padding: 10px 20px;
+    width:90%;
+    margin:8px 0;
+}
+input[type=password]{
+    border:2px solid #90a5a6;
+    padding: 10px 20px;
+    width:90%;
+    margin:8px 0;
+}
+input[type=textarea]{
+    border:2px solid #90a5a6;
+    padding: 10px 20px;
+    width:90%;
+    margin:8px 0;
+}
+button{
+    padding: 5px 0px;
+    text-align: left;
+    display: inline-block;
+    font-size: 16px;
+    font-family: helvetica;
+}
+textarea{
+     border:2px solid #90a5a6;
+}
+
+h2 {
+    margin: 10px 0 20px 0;
+    text-align: center;
+    font: 20px arial, sans-serif;
+    font-weight: bold;
+  }
+a, a:visited, a:link, a:active {
+    color:white;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: green;
+  }
+
+ul {
+    padding: 0 0 0 50px;
+  }
+  ul li {
+    margin: 0 0 5px 0;
+  }
+  
+.nav {
+    padding-left: 0;
+    margin: 5px 0 20px 0;
+    text-align: center;
+  }  
+.nav li {
+    display: inline;
+    padding-right: 10px;
+  }
+.nav li a{
+	font-size: 25px;
+	font: 20px Comic Sans MS, sans-serif;
+}
+  
+.main-content {
+    width: 500px;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid black;
+    border-radius: 2em;
+    margin: 30px auto 0 auto;
+    background: skyblue top left repeat; 
+  }
